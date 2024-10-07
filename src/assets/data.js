@@ -1,0 +1,7 @@
+const info = {
+    
+}
+
+export {
+    info
+}

@@ -1,0 +1,131 @@
+{
+    "intro" : {
+        "title" : "Mechatronic Engineer",
+        "text" : "Currently pursuing a Master's in Mechatronics, with knowledge of Object Oriented Programming, Web Development, Mixed Reality and Artificial Intelligence. Motivated to implement academic knowledge into practical experience and effectively contribute to innovative software solutions."
+    },
+
+    "education" : [
+        {
+            "title" : "Mechatronic and Cyber-Physical Systems, M.Eng",
+            "place" : "Technische Hochschule Deggendorf, Campus Cham",
+            "time" : "03/2023 - Present",
+            "description":"Virtual Reality, Robotics Operative System, Additive Manufacturing, MATLAB Simulations",
+            "grade" : "2.2"
+        },
+        {
+            "title" : "Mechatronics Engineering, B.Eng",
+            "place" : "Universidad Nacional Autónoma de México (UNAM), Facultad de Ingeniería",
+            "time" : "08/2016 - 06/2021",
+            "description":"Virtual Reality, Computer Aided Design and Engineering, Machine Learning, PLC Programming",
+            "grade" : "1.9"
+        },
+        {
+            "title" : "Machines with Automated Systems Technician",
+            "place" : "Centro de Estudios Científicos y Tecnológicos No. 9 “Juan de Dios Bátiz”",
+            "time" : "08/2013 - 06/2016",
+            "description":"PLC Programming, CNC Manufacturing, Computer Aided Design",
+            "grade" : "2.5"
+        }
+    ],
+
+    "work" : [
+        {
+            "title" : "Full-Stack Web Development Trainee",
+            "place" : "Infosys Mexico",
+            "time" : "06/2022 - 11/2022",
+            "description":"Trainee program on learning Java Spring Boot framework, SQL, Angular, as well as Agile methodology."
+        },
+        {
+            "title" : "3D Model Development Intern",
+            "place" : "Universidad Nacional Autónoma de México (UNAM), Facultad de Medicina",
+            "time" : "10/2021 - 12/2021",
+            "description":"3D Anatomical Model implementation using WebGL and Blender. Drawing of the missing blood ducts."
+        },
+        {
+            "title" : "Social Service on Simulation Technologies",
+            "place" : "Universidad Nacional Autónoma de México (UNAM), Facultad de Medicina",
+            "time" : "08/2020 - 03/2021",
+            "description":"Development and implementation of a Serious Game, to teach medical students how to take a clinical history. Reporting the results in a further investigation."
+        }
+    ],
+
+    "accomplishments" : [
+        {
+            "title" : "LevelUP Videogame Hackathon",
+            "place" : "AI Lab School",
+            "time" : "11/2022",
+            "description":"Development of a Serious Game during one week, and final presentation in a contest. Second place was obtained."
+        },
+        {
+            "title" : "Sixth International Clinical Simulation Meeting, SIMex 2022",
+            "place" : "Universidad Nacional Autónoma de México (UNAM), Facultad de Medicina",
+            "time" : "11/2022",
+            "description":"Presentation of a research study on a simulation environment developed for the training of Medical History using Virtual Reality for Medical Students."
+        },
+        {
+            "title" : "Schneider GoGreen",
+            "place" : "Schneider Electric",
+            "time" : "02/2022",
+            "description":"Presentation on logistics improvement of supply chains, using Blockchain."
+        },
+        {
+            "title" : "Bosch Does IT",
+            "place" : "Talent Land 2019 ",
+            "time" : "04/2019",
+            "description":"Presentation of a project to modernize urban mobility, using API Rest applications and Internet of Things. Finalist of the contest."
+        }
+    ],
+
+    "techSkills":[
+        {
+            "text":"Python Libraries: OpenCV, NumPy, Scikit",
+            "icon":"python"
+        },
+        {
+            "text":"Unity game engine",
+            "icon":"unity"
+        },
+        {
+            "text":"Blender",
+            "icon":"blender"
+        },
+        {
+            "text":"Frontend frameworks: React, Angular",
+            "icon":"react"
+        },
+        {
+            "text":"Backend frameworks: PHP Laravel, Java Spring",
+            "icon":"laravel"
+        },
+        {
+            "text":"MySQL",
+            "icon":"sql"
+        },
+        {
+            "text":"Object Oriented Programming",
+            "icon":"oop"
+        }
+    ],
+
+    "langSkills":[
+        {
+            "name":"Spanish",
+            "level":0
+        },
+        {
+            "name":"English",
+            "level":4
+        },
+        {
+            "name":"German",
+            "level":3
+        }
+    ],
+
+    "personalSkills":[
+        "Analytical thinking and problem-solving",
+        "Proactive and perseverant",
+        "Quick and continuous learner",
+        "Team oriented"
+    ]
+}
