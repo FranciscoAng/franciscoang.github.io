@@ -1,4 +1,12 @@
 {
+    "general" : {
+        "education" : "Education",
+        "work" : "Work Education",
+        "accomplishments" : "Accomplishments",
+        "techSkills" : "Technical Skills",
+        "languages" : "Language Skills"
+    },
+
     "intro" : {
         "title" : "Mechatronic Engineer",
         "text" : "Currently pursuing a Master's in Mechatronics, with knowledge of Object Oriented Programming, Web Development, Mixed Reality and Artificial Intelligence. Motivated to implement academic knowledge into practical experience and effectively contribute to innovative software solutions."

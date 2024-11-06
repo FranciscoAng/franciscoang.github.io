@@ -14,10 +14,10 @@ export default function LayoutCV() {
 
     return(
         <>
-        <header className="p-5 border-b">
+        <header className="sticky top-0 p-2 border-b bg-gray-50 mb-5 rounded shadow">
             <div className="container mx-auto flex justify-between items-center">
                 <h1>
-                    Francisco Angeles
+                    
                 </h1>
                 
                 <div className="inline-flex items-center font-bold uppercase bg-white rounded">

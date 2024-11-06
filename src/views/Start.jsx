@@ -62,38 +62,40 @@ export default function Start() {
 
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 justify-around">
             <div className="bg-white rounded m-2">
-                <h2 className="text-2xl font-extrabold uppercase text-left mt-10 px-5">Education</h2>
+                <h2 className="text-2xl font-extrabold uppercase text-left mt-10 px-5">{t("general.education")}</h2>
                 {educations.map((education, index)=>(
                     <EducationCard key={index} prop={education}/>
                 ))}
             </div>
 
             <div className="bg-white rounded m-2">
-                <h2 className="text-2xl font-extrabold uppercase text-left mt-10 px-5">Work Education</h2>
+                <h2 className="text-2xl font-extrabold uppercase text-left mt-10 px-5">{t("general.work")}</h2>
                 {jobs.map((education, index)=>(
                     <WorkCard key={index} prop={education}/>
                 ))}
             </div>
 
             <div className="bg-white rounded m-2">
-                <h2 className="text-2xl font-extrabold uppercase text-left mt-10 px-5">Accomplishments</h2>
+                <h2 className="text-2xl font-extrabold uppercase text-left mt-10 px-5">{t("general.accomplishments")}</h2>
                 {accomplishments.map((education, index)=>(
                     <WorkCard key={index} prop={education}/>
                 ))}
             </div>
         </div>
 
-        <LogoCloud list={tech} title="Technical Skills">
+        <LogoCloud list={tech} title={t("general.techSkills")}>
             {tech.map((skill,index)=>(
                 <Icon icon={skill.icon} className="size-10 fill-slate-800"/>
             ))}
         </LogoCloud>
 
-        <div>
-            <h1 className="text-2xl font-extrabold uppercase text-left px-5 mt-10">Languague Skills</h1>
-            {langs.map((language, index)=>(
-                <LangLevel lang={language}/>
-            ))}
+        <div className="container mx-auto m-2 rounded bg-white px-5 py-1">
+            <h1 className="text-2xl font-extrabold uppercase text-left px-5 mt-10">{t("general.languages")}</h1>
+            <div className="m-5 justify-between">
+                {langs.map((language, index)=>(
+                    <LangLevel lang={language}/>
+                ))}
+            </div>
         </div>
         </>
     )

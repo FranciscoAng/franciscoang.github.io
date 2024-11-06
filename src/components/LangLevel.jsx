@@ -5,31 +5,31 @@ export default function LangLevel({lang}){
         switch(lang.level){
             case 0:
                 return(
-                    <p>Native</p>
+                    <b>Native</b>
                 )
             case 1:
                 return(
-                    <p>A1</p>
+                    <b>A1</b>
                 )
             case 2:
                 return(
-                    <p>A1 - A2</p>
+                    <p>A1 - <b>A2</b></p>
                 )
             case 3:
                 return(
-                    <p>A1 - A2 - B1</p>
+                    <p>A1 - A2 - <b>B1</b></p>
                 )
             case 4:
                 return(
-                    <p>A1 - A2 - B1 - B2</p>
+                    <p>A1 - A2 - B1 - <b>B2</b></p>
                 )
             case 5:
                 return(
-                    <p>A1 - A2 - B1 - B2 - C1 - C2</p>
+                    <p>A1 - A2 - B1 - B2 - <b>C1</b></p>
                 )
             case 6:
                 return(
-                    <p>A1 - A2 - B1 - B2 - C1 - C2</p>
+                    <p>A1 - A2 - B1 - B2 - C1 - <b>C2</b></p>
                 )
         }
     }
