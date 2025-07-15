@@ -9,16 +9,16 @@
 
     "intro" : {
         "title" : "Mechatronic Engineer",
-        "text" : "Currently pursuing a Master's in Mechatronics, with knowledge of Object Oriented Programming, Web Development, Mixed Reality and Artificial Intelligence. Motivated to implement academic knowledge into practical experience and effectively contribute to innovative software solutions."
+        "text" : "Bringing self-taught mentality and always growing curiosity together, with knowledge of Data Analysis, Object Oriented Programming, Web Development and Mixed Reality. Motivated to implement academic knowledge into practical experience and effectively contribute to innovative software solutions."
     },
 
     "education" : [
         {
             "title" : "Mechatronic and Cyber-Physical Systems, M.Eng",
             "place" : "Technische Hochschule Deggendorf, Campus Cham",
-            "time" : "03/2023 - Present",
+            "time" : "03/2023 - 06/2024",
             "description":"Virtual Reality, Robotics Operative System, Additive Manufacturing, MATLAB Simulations",
-            "grade" : "2.2"
+            "grade" : "2.2 (Unfinished)"
         },
         {
             "title" : "Mechatronics Engineering, B.Eng",
@@ -38,10 +38,16 @@
 
     "work" : [
         {
+            "title" : "Automation and Process Analyst",
+            "place" : "CROMANG DIE CASTING",
+            "time" : "08/2024 - Present",
+            "description":"Commissioning of second-hand automated systems and subsequent performance and loss monitoring. Planning and implementation of IoT sensors to record production values and subsequently identify areas of opportunity. Testing and validation of CAD models for Die Casting."
+        },
+        {
             "title" : "Full-Stack Web Development Trainee",
             "place" : "Infosys Mexico",
-            "time" : "06/2022 - 11/2022",
-            "description":"Trainee program on learning Java Spring Boot framework, SQL, Angular, as well as Agile methodology."
+            "time" : "01/2022 - 12/2022",
+            "description":"Web development on Java Spring Boot Framework, SQL, Angular, and Agile methodology."
         },
         {
             "title" : "3D Model Development Intern",
@@ -127,7 +133,12 @@
         {
             "name":"German",
             "level":3
-        }
+        },
+        {
+            "name":"Czech",
+            "level":1
+        },
+        
     ],
 
     "personalSkills":[
