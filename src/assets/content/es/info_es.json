@@ -9,6 +9,33 @@
 
     "intro" : {
         "title" : "Ingeniero Mecatrónico",
-        "text" : "Actualmente curso un Máster en Mecatrónica, con conocimientos de Programación Orientada a Objetos, Desarrollo Web, Realidad Mixta e Inteligencia Artificial. Motivado para implementar mi conocimiento académico en la experiencia práctica y contribuir eficazmente a soluciones de software innovadoras."
-    }
+        "text" : "Combino una mentalidad autodidacta y una curiosidad siempre creciente, con conocimientos de Análisis de Datos, Automatización Industrial, Robótica, Programación Orientada a Objetos, y Realidad Mixta. Me motiva resolver problemas nuevos que pongan a prueba mi ingenio y creatividad, además de mantenerme actualizado en nuevas tecnologías que puedan ser implementadas en soluciones inovadoras."
+    },
+
+    "langSkills":[
+        {
+            "name":"Español",
+            "level":0
+        },
+        {
+            "name":"Inglés",
+            "level":4
+        },
+        {
+            "name":"Alemán",
+            "level":4
+        },
+        {
+            "name":"Checo",
+            "level":1
+        }
+        
+    ],
+
+    "personalSkills":[
+        "Pensamiento analítico y resolutivo",
+        "Proactivo y perseverante",
+        "Aprendizaje rápido, independiente y continuo",
+        "Trabajo en equipo"
+    ]
 }

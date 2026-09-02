@@ -46,7 +46,7 @@ export default function Start() {
                     </p>
                     <p className="flex gap-2 items-center">
                         <Icon icon="location" className="size-4"/>
-                        <a>Lauf a.d Pegnitz, Germany</a>
+                        <a>Tultitlan, Mexico</a>
                     </p>
                     <p className="flex gap-2 items-center">
                         <Icon icon="linkedin" className="size-4"/>
@@ -75,12 +75,7 @@ export default function Start() {
                 ))}
             </div>
 
-            <div className="bg-white rounded m-2">
-                <h2 className="text-2xl font-extrabold uppercase text-left mt-10 px-5">{t("general.accomplishments")}</h2>
-                {accomplishments.map((education, index)=>(
-                    <WorkCard key={index} prop={education}/>
-                ))}
-            </div>
+            
         </div>
 
         <LogoCloud list={tech} title={t("general.techSkills")}>
@@ -96,6 +91,12 @@ export default function Start() {
                     <LangLevel lang={language}/>
                 ))}
             </div>
+        </div>
+        <div className="bg-white rounded m-2">
+                <h2 className="text-2xl font-extrabold uppercase text-left mt-10 px-5">{t("general.accomplishments")}</h2>
+                {accomplishments.map((education, index)=>(
+                    <WorkCard key={index} prop={education}/>
+                ))}
         </div>
         </>
     )
