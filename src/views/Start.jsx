@@ -24,6 +24,7 @@ export default function Start() {
     const accomplishments = t("accomplishments", { returnObjects: true })
     const tech = t("techSkills", { returnObjects: true })
     const langs = t("langSkills", { returnObjects: true })
+    const skills = t("personalSkills", { returnObjects: true })
 
     return(
         <> 
@@ -84,15 +85,28 @@ export default function Start() {
             ))}
         </LogoCloud>
 
-        <div className="container mx-auto m-2 rounded bg-white px-5 py-1">
-            <h1 className="text-2xl font-extrabold uppercase text-left px-5 mt-10">{t("general.languages")}</h1>
-            <div className="m-5 justify-between">
-                {langs.map((language, index)=>(
-                    <LangLevel lang={language}/>
-                ))}
+        <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 m-2 rounded bg-white px-5 py-1">
+            <div>
+                <h1 className="text-2xl font-extrabold uppercase text-left px-5 mt-10">{t("general.languages")}</h1>
+                <div className="m-5 justify-between">
+                    {langs.map((language, index)=>(
+                        <LangLevel lang={language}/>
+                    ))}
+                </div>
+            </div>
+            <div>
+                <h1 className="text-2xl font-extrabold uppercase text-left px-5 mt-10">{t("general.softSkills")}</h1>
+                <div className="m-5">
+                    <ul className="text-left list-disc">
+                    {skills.map((element, index)=>(
+                        <li>{element}</li>
+                    ))}
+                    </ul>
+                </div>
             </div>
         </div>
-        <div className="bg-white rounded m-2">
+        
+        <div className="container mx-auto px-5 py-1 bg-white rounded">
                 <h2 className="text-2xl font-extrabold uppercase text-left mt-10 px-5">{t("general.accomplishments")}</h2>
                 {accomplishments.map((education, index)=>(
                     <WorkCard key={index} prop={education}/>

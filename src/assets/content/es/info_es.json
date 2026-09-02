@@ -4,7 +4,8 @@
         "work" : "Experiencia Laboral",
         "accomplishments" : "Logros",
         "techSkills" : "Habilidades Técnicas",
-        "languages" : "Idiomas"
+        "languages" : "Idiomas",
+        "softSkills": "Habilidades"
     },
 
     "intro" : {

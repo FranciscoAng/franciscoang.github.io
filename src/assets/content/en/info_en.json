@@ -4,7 +4,8 @@
         "work" : "Work Education",
         "accomplishments" : "Accomplishments",
         "techSkills" : "Technical Skills",
-        "languages" : "Language Skills"
+        "languages" : "Language Skills",
+        "softSkills": "Soft Skills"
     },
 
     "intro" : {
@@ -17,7 +18,7 @@
             "title" : "Mechatronic and Cyber-Physical Systems, M.Eng",
             "place" : "Technische Hochschule Deggendorf, Campus Cham",
             "time" : "03/2023 - 06/2024",
-            "description":"Virtual Reality, Robotics Operative System, Additive Manufacturing, MATLAB Simulations",
+            "description":"Virtual Reality, Robotics Operative System, Additive Manufacturing, MATLAB Simulations, Functional Safety, Computer Vision",
             "grade" : "8.2 (Unfinished)"
         },
         {
@@ -31,7 +32,7 @@
             "title" : "Machines with Automated Systems Technician",
             "place" : "Centro de Estudios Científicos y Tecnológicos No. 9 “Juan de Dios Bátiz”",
             "time" : "08/2013 - 06/2016",
-            "description":"PLC Programming, CNC Manufacturing, Computer Aided Design",
+            "description":"PLC Programming, CNC Manufacturing, Computer Aided Design, C++",
             "grade" : "7.9"
         }
     ],
