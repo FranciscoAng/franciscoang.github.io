@@ -48,7 +48,7 @@
             "title" : "Full-Stack Web Entwicklung",
             "place" : "Infosys Mexico",
             "time" : "01/2022 - 12/2022",
-            "description":"Web development on Java Spring Boot Framework, SQL, Angular, and Agile methodology."
+            "description":"- Webentwicklung unter Verwendung des Java Spring Boot-Frameworks, relationaler SQL-Datenbanken, Angular-Framework und SCRUM-Methodik – Refactoring des Codes gemäß den SOLID-Prinzipien, um die Komplexität der Module zu reduzieren und die Wartbarkeit zu verbessern – Unit-Tests mit JUnit und Mockito"
         },
         {
             "title" : "3D Model Development Intern",
